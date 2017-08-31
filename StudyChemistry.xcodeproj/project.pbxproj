@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01577B90FAC2B13B748655B8 /* Pods_StudyChemistry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61C0D3250D2AC7A2D27CD4C2 /* Pods_StudyChemistry.framework */; };
+		A327CF6C1F565DF900AFF499 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327CF6B1F565DF900AFF499 /* AppDelegate.swift */; };
+		A327CF731F565DF900AFF499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A327CF721F565DF900AFF499 /* Assets.xcassets */; };
+		A327CF761F565DF900AFF499 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A327CF741F565DF900AFF499 /* LaunchScreen.storyboard */; };
+		A3D73A5F1F578B1E0086A17E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D73A5E1F578B1E0086A17E /* UIView+Frame.m */; };
+		A3D73A611F578B510086A17E /* RESTResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D73A601F578B510086A17E /* RESTResponse.swift */; };
+		A3D73A6B1F578B780086A17E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D73A631F578B780086A17E /* BaseViewController.swift */; };
+		A3D73A6C1F578B780086A17E /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D73A651F578B780086A17E /* Config.swift */; };
+		A3D73A6D1F578B780086A17E /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D73A681F578B780086A17E /* Log.swift */; };
+		A3D73A6E1F578B780086A17E /* ZNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D73A691F578B780086A17E /* ZNetworking.swift */; };
+		A3D73A6F1F578B780086A17E /* ZServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D73A6A1F578B780086A17E /* ZServiceManager.swift */; };
+		A3D73A731F578C3D0086A17E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D73A721F578C3D0086A17E /* SWRevealViewController.m */; };
+		A3D73A791F578E1C0086A17E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D73A761F578E1C0086A17E /* MainViewController.swift */; };
+		A3D73A7A1F578E1C0086A17E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3D73A771F578E1C0086A17E /* MainViewController.xib */; };
+		A3D73A7D1F578E300086A17E /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D73A7B1F578E300086A17E /* SideMenuViewController.swift */; };
+		A3D73A7E1F578E300086A17E /* SideMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3D73A7C1F578E300086A17E /* SideMenuViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		61C0D3250D2AC7A2D27CD4C2 /* Pods_StudyChemistry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudyChemistry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E455B28E376EAB651BED2D8 /* Pods-StudyChemistry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyChemistry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StudyChemistry/Pods-StudyChemistry.debug.xcconfig"; sourceTree = "<group>"; };
+		A327CF681F565DF800AFF499 /* StudyChemistry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyChemistry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A327CF6B1F565DF900AFF499 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A327CF721F565DF900AFF499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A327CF751F565DF900AFF499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A327CF771F565DF900AFF499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3D73A5D1F578B1E0086A17E /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		A3D73A5E1F578B1E0086A17E /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		A3D73A601F578B510086A17E /* RESTResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESTResponse.swift; sourceTree = "<group>"; };
+		A3D73A631F578B780086A17E /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A3D73A651F578B780086A17E /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		A3D73A681F578B780086A17E /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		A3D73A691F578B780086A17E /* ZNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNetworking.swift; sourceTree = "<group>"; };
+		A3D73A6A1F578B780086A17E /* ZServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZServiceManager.swift; sourceTree = "<group>"; };
+		A3D73A711F578C3D0086A17E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		A3D73A721F578C3D0086A17E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		A3D73A741F578C490086A17E /* StudyChemistry-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "StudyChemistry-Bridging-Header.h"; sourceTree = "<group>"; };
+		A3D73A761F578E1C0086A17E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A3D73A771F578E1C0086A17E /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		A3D73A7B1F578E300086A17E /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		A3D73A7C1F578E300086A17E /* SideMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuViewController.xib; sourceTree = "<group>"; };
+		EF2CE5A31B22D87E7DCA2E25 /* Pods-StudyChemistry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyChemistry.release.xcconfig"; path = "Pods/Target Support Files/Pods-StudyChemistry/Pods-StudyChemistry.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A327CF651F565DF800AFF499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01577B90FAC2B13B748655B8 /* Pods_StudyChemistry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11741AF93A04D77FDFF2D295 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61C0D3250D2AC7A2D27CD4C2 /* Pods_StudyChemistry.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FDEC6F5A1B1BBF926BC83E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E455B28E376EAB651BED2D8 /* Pods-StudyChemistry.debug.xcconfig */,
+				EF2CE5A31B22D87E7DCA2E25 /* Pods-StudyChemistry.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A327CF5F1F565DF800AFF499 = {
+			isa = PBXGroup;
+			children = (
+				A327CF6A1F565DF800AFF499 /* StudyChemistry */,
+				A327CF691F565DF800AFF499 /* Products */,
+				9FDEC6F5A1B1BBF926BC83E5 /* Pods */,
+				11741AF93A04D77FDFF2D295 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A327CF691F565DF800AFF499 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A327CF681F565DF800AFF499 /* StudyChemistry.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A327CF6A1F565DF800AFF499 /* StudyChemistry */ = {
+			isa = PBXGroup;
+			children = (
+				A3D73A571F57898D0086A17E /* Views */,
+				A3D73A551F5789850086A17E /* Libs */,
+				A3D73A561F5789850086A17E /* Models */,
+				A3D73A541F57897D0086A17E /* Helpers */,
+				A3D73A531F5789720086A17E /* Controllers */,
+				A327CF6B1F565DF900AFF499 /* AppDelegate.swift */,
+				A327CF721F565DF900AFF499 /* Assets.xcassets */,
+				A327CF741F565DF900AFF499 /* LaunchScreen.storyboard */,
+				A327CF771F565DF900AFF499 /* Info.plist */,
+				A3D73A741F578C490086A17E /* StudyChemistry-Bridging-Header.h */,
+			);
+			path = StudyChemistry;
+			sourceTree = "<group>";
+		};
+		A3D73A531F5789720086A17E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A3D73A751F578E1C0086A17E /* MainView */,
+				A3D73A781F578E1C0086A17E /* SideMenuView */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A3D73A541F57897D0086A17E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A3D73A621F578B780086A17E /* Base */,
+				A3D73A641F578B780086A17E /* Config */,
+				A3D73A661F578B780086A17E /* Extension */,
+				A3D73A671F578B780086A17E /* Networking */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A3D73A551F5789850086A17E /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				A3D73A701F578C3D0086A17E /* SWRevealViewController */,
+				A3D73A5C1F578B1E0086A17E /* UIView+Frame */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		A3D73A561F5789850086A17E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A3D73A601F578B510086A17E /* RESTResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A3D73A571F57898D0086A17E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A3D73A5C1F578B1E0086A17E /* UIView+Frame */ = {
+			isa = PBXGroup;
+			children = (
+				A3D73A5D1F578B1E0086A17E /* UIView+Frame.h */,
+				A3D73A5E1F578B1E0086A17E /* UIView+Frame.m */,
+			);
+			path = "UIView+Frame";
+			sourceTree = "<group>";
+		};
+		A3D73A621F578B780086A17E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A3D73A631F578B780086A17E /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A3D73A641F578B780086A17E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A3D73A651F578B780086A17E /* Config.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		A3D73A661F578B780086A17E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A3D73A671F578B780086A17E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A3D73A681F578B780086A17E /* Log.swift */,
+				A3D73A691F578B780086A17E /* ZNetworking.swift */,
+				A3D73A6A1F578B780086A17E /* ZServiceManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A3D73A701F578C3D0086A17E /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A3D73A711F578C3D0086A17E /* SWRevealViewController.h */,
+				A3D73A721F578C3D0086A17E /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		A3D73A751F578E1C0086A17E /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				A3D73A761F578E1C0086A17E /* MainViewController.swift */,
+				A3D73A771F578E1C0086A17E /* MainViewController.xib */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		A3D73A781F578E1C0086A17E /* SideMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				A3D73A7B1F578E300086A17E /* SideMenuViewController.swift */,
+				A3D73A7C1F578E300086A17E /* SideMenuViewController.xib */,
+			);
+			path = SideMenuView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A327CF671F565DF800AFF499 /* StudyChemistry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A327CF7A1F565DF900AFF499 /* Build configuration list for PBXNativeTarget "StudyChemistry" */;
+			buildPhases = (
+				2084CF89EBD2E3AE79F69E33 /* [CP] Check Pods Manifest.lock */,
+				A327CF641F565DF800AFF499 /* Sources */,
+				A327CF651F565DF800AFF499 /* Frameworks */,
+				A327CF661F565DF800AFF499 /* Resources */,
+				258E7692A402942D31D427F4 /* [CP] Embed Pods Frameworks */,
+				0928DE49364AAFAC1233897E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudyChemistry;
+			productName = StudyChemistry;
+			productReference = A327CF681F565DF800AFF499 /* StudyChemistry.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A327CF601F565DF800AFF499 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = VinhNH;
+				TargetAttributes = {
+					A327CF671F565DF800AFF499 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4K553XM79P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A327CF631F565DF800AFF499 /* Build configuration list for PBXProject "StudyChemistry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A327CF5F1F565DF800AFF499;
+			productRefGroup = A327CF691F565DF800AFF499 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A327CF671F565DF800AFF499 /* StudyChemistry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A327CF661F565DF800AFF499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D73A7E1F578E300086A17E /* SideMenuViewController.xib in Resources */,
+				A327CF761F565DF900AFF499 /* LaunchScreen.storyboard in Resources */,
+				A3D73A7A1F578E1C0086A17E /* MainViewController.xib in Resources */,
+				A327CF731F565DF900AFF499 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0928DE49364AAFAC1233897E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyChemistry/Pods-StudyChemistry-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2084CF89EBD2E3AE79F69E33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		258E7692A402942D31D427F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyChemistry/Pods-StudyChemistry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A327CF641F565DF800AFF499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D73A6B1F578B780086A17E /* BaseViewController.swift in Sources */,
+				A3D73A6D1F578B780086A17E /* Log.swift in Sources */,
+				A3D73A5F1F578B1E0086A17E /* UIView+Frame.m in Sources */,
+				A3D73A6F1F578B780086A17E /* ZServiceManager.swift in Sources */,
+				A3D73A7D1F578E300086A17E /* SideMenuViewController.swift in Sources */,
+				A3D73A611F578B510086A17E /* RESTResponse.swift in Sources */,
+				A327CF6C1F565DF900AFF499 /* AppDelegate.swift in Sources */,
+				A3D73A731F578C3D0086A17E /* SWRevealViewController.m in Sources */,
+				A3D73A6E1F578B780086A17E /* ZNetworking.swift in Sources */,
+				A3D73A6C1F578B780086A17E /* Config.swift in Sources */,
+				A3D73A791F578E1C0086A17E /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A327CF741F565DF900AFF499 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A327CF751F565DF900AFF499 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A327CF781F565DF900AFF499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A327CF791F565DF900AFF499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A327CF7B1F565DF900AFF499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E455B28E376EAB651BED2D8 /* Pods-StudyChemistry.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4K553XM79P;
+				INFOPLIST_FILE = StudyChemistry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devhse.StudyChemistry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/admin/StudyChemistry/StudyChemistry/StudyChemistry-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A327CF7C1F565DF900AFF499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF2CE5A31B22D87E7DCA2E25 /* Pods-StudyChemistry.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4K553XM79P;
+				INFOPLIST_FILE = StudyChemistry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devhse.StudyChemistry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/admin/StudyChemistry/StudyChemistry/StudyChemistry-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A327CF631F565DF800AFF499 /* Build configuration list for PBXProject "StudyChemistry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A327CF781F565DF900AFF499 /* Debug */,
+				A327CF791F565DF900AFF499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A327CF7A1F565DF900AFF499 /* Build configuration list for PBXNativeTarget "StudyChemistry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A327CF7B1F565DF900AFF499 /* Debug */,
+				A327CF7C1F565DF900AFF499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A327CF601F565DF800AFF499 /* Project object */;
+}

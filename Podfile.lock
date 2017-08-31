@@ -1,0 +1,31 @@
+PODS:
+  - Alamofire (4.5.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - Crashlytics (3.8.5):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.12)
+  - iosMath (0.9.4)
+  - ObjectMapper (2.2.8)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - Crashlytics
+  - iosMath
+  - ObjectMapper
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  Crashlytics: dfbae35ef22ca189240d230ad501feea4ee85d2d
+  Fabric: f050464eac45a2ce5a8e6e6a07e977c0df32fe28
+  iosMath: f7a6cbadf9d836d2149c2a84c435b1effc244cba
+  ObjectMapper: 3d571bb5af471c779e1160828cd9ad5c4ef90958
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 08effd0999675338b03789bb626fbe834399cb5a
+
+COCOAPODS: 1.0.1
