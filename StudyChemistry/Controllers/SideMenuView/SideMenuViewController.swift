@@ -12,7 +12,6 @@ import UIKit
 class SideMenuViewController: UIViewController {
     @IBOutlet weak var containerView    : UIView!
     @IBOutlet weak var tableView        : UITableView!
-    
     var baseTabbar       = UIViewController()
     var isBaseTabbar     : Bool = false
     
@@ -28,19 +27,15 @@ class SideMenuViewController: UIViewController {
     }
     
     private func setupView(){
-        
-        /* setup containerView
-         */
+        // setup containerView
         containerView.frame = CGRect(x: 0, y:  0, width: kScreenWidth, height: kScreenHeight )
         containerView.backgroundColor = COLOR.MAIN
-        /**
-         * init tableView
-         */
+        // init tableView
         tableView.frame = CGRect(x: 0, y: 20, width: kScreenWidth,
                                  height: 10 * 44 + 20)
         tableView.backgroundColor = .clear
-//        tableView.isScrollEnabled = true
-        //        tableView.register(UINib(nibName: "MenuTableViewCell",bundle: nil), forCellReuseIdentifier: "MenuTableViewCell")
+        // tableView.isScrollEnabled = true
+        // tableView.register(UINib(nibName: "MenuTableViewCell",bundle: nil), forCellReuseIdentifier: "MenuTableViewCell")
     }
     
     override func didReceiveMemoryWarning() {
@@ -69,8 +64,6 @@ extension SideMenuViewController : UITableViewDelegate{
 }
 extension SideMenuViewController : UITableViewDataSource{
     
-    /* setup TableView Cell
-     */
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
     }

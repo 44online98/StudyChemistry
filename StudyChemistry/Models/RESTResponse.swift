@@ -13,10 +13,10 @@ import SwiftyJSON
 class RESTResponse: Mappable {
     
     //error status
-    dynamic var statusCode = 0
+    @objc dynamic var statusCode = 0
     
     //error message
-    dynamic var message = ""
+    @objc dynamic var message = ""
     
     convenience required init?(map: Map) {
         self.init()

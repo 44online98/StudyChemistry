@@ -14,7 +14,6 @@
  */
 #import "UIView+Frame.h"
 
-
 /** Slide Menu
  */
 #import "SWRevealViewController.h"
