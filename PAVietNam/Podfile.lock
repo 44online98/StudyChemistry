@@ -1,0 +1,31 @@
+PODS:
+  - Alamofire (4.7.0)
+  - AlamofireImage (3.3.0):
+    - Alamofire (~> 4.5)
+  - CYLTabBarController (1.8.0)
+  - ObjectMapper (3.1.0)
+  - Reachability (3.2)
+  - SwiftyJSON (4.0.0)
+  - TTTAttributedLabel (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - CYLTabBarController (= 1.8.0)
+  - ObjectMapper
+  - Reachability
+  - SwiftyJSON
+  - TTTAttributedLabel
+
+SPEC CHECKSUMS:
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
+  CYLTabBarController: 3b6befc12bccc2fd29a4d69e3ad7f9c4aaaf4506
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+
+PODFILE CHECKSUM: a6744cfe166ade2b5fda61cf7fdde25197b28b5d
+
+COCOAPODS: 1.4.0
