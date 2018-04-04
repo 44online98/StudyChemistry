@@ -1,0 +1,19 @@
+platform :ios, '10.0'
+use_frameworks!
+
+target 'PAVietNam' do
+    # Alamofire (Networking)
+    pod 'Alamofire'
+    
+    # Reachability
+    pod 'Reachability'
+    
+    # ObjectMapper - auto mapper data
+    pod 'ObjectMapper'
+    pod 'SwiftyJSON'
+    
+    # AlamofireImage - Image Fetcher
+    pod 'AlamofireImage'
+    
+end
+
