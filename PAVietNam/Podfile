@@ -8,15 +8,6 @@ target 'PAVietNam' do
     # Reachability
     pod 'Reachability'
     
-    # CYLTabBarController
-    pod 'CYLTabBarController', '1.8.0'
-    
-    # TTTAttributedLabel
-    pod 'TTTAttributedLabel'
-    
-    # HockeySDK
-    # pod 'HockeySDK', '~> 4.1.4'
-    
     # ObjectMapper - auto mapper data
     pod 'ObjectMapper'
     pod 'SwiftyJSON'
