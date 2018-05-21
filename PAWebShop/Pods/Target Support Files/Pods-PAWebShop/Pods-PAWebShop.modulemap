@@ -1,6 +1,0 @@
-framework module Pods_PAWebShop {
-  umbrella header "Pods-PAWebShop-umbrella.h"
-
-  export *
-  module * { export * }
-}
