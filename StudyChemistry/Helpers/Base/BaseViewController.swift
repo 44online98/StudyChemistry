@@ -27,7 +27,7 @@ class BaseViewController: UIViewController {
          * isTranslucent
          */
         navigationController?.navigationBar.barTintColor        = COLOR.MAIN
-        navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         
         navigationController?.navigationBar.tintColor           = .white
         navigationController?.navigationBar.isTranslucent       = false
@@ -45,7 +45,7 @@ extension BaseViewController {
     
     func showAlertWith( title: String, message: String ){
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        let okAction = UIAlertAction(title: TEXT.OK, style: UIAlertActionStyle.default) {
+        let okAction = UIAlertAction(title: TEXT.OK, style: UIAlertAction.Style.default) {
             UIAlertAction in
         }
         alertController.addAction(okAction)
@@ -59,7 +59,7 @@ extension BaseViewController {
         // Setup indicator
         activityIndicator = UIActivityIndicatorView()
         activityIndicator?.hidesWhenStopped = true
-        activityIndicator?.activityIndicatorViewStyle  = UIActivityIndicatorViewStyle.whiteLarge
+        activityIndicator?.style  = UIActivityIndicatorView.Style.whiteLarge
         activityIndicator?.center = rootview.center
         activityIndicator?.layer.zPosition = 9999
         rootview.addSubview(activityIndicator!)
